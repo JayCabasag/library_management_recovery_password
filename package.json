@@ -1,4 +1,14 @@
 {
+  "name": "library_management_recovery_password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@google-cloud/firestore": "^6.4.1",
     "base-64": "^1.0.0",
@@ -9,8 +19,5 @@
     "generate-password": "^1.7.0",
     "nodemailer": "^6.8.0",
     "nodemon": "^2.0.20"
-  },
-  "scripts": {
-    "start": "node ./index.js"
   }
 }
